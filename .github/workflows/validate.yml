@@ -16,27 +16,36 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Detect Node project
+        id: node_project
+        shell: bash
+        run: |
+          if [ -f package.json ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Set up Node.js
+        if: steps.node_project.outputs.present == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: npm
-          cache-dependency-path: package-lock.json
+          node-version: 24
 
       - name: Install dependencies
-        if: ${{ hashFiles('package-lock.json') != '' }}
+        if: steps.node_project.outputs.present == 'true' && hashFiles('package-lock.json') != ''
         run: npm ci
 
       - name: Type check
-        if: ${{ hashFiles('package.json') != '' }}
+        if: steps.node_project.outputs.present == 'true'
         run: npm run typecheck --if-present
 
       - name: Validate repository
-        if: ${{ hashFiles('package.json') != '' }}
+        if: steps.node_project.outputs.present == 'true'
         run: npm run validate --if-present
 
       - name: Build platform
-        if: ${{ hashFiles('package.json') != '' }}
+        if: steps.node_project.outputs.present == 'true'
         run: npm run build --if-present
 
       - name: Verify constitutional folders
