@@ -1,0 +1,50 @@
+name: Validate Repository
+
+on:
+  push:
+    branches: [main, development, research, release]
+  pull_request:
+    branches: [main, development]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        if: ${{ hashFiles('package-lock.json') != '' }}
+        run: npm ci
+
+      - name: Type check
+        if: ${{ hashFiles('package.json') != '' }}
+        run: npm run typecheck --if-present
+
+      - name: Validate repository
+        if: ${{ hashFiles('package.json') != '' }}
+        run: npm run validate --if-present
+
+      - name: Build platform
+        if: ${{ hashFiles('package.json') != '' }}
+        run: npm run build --if-present
+
+      - name: Verify constitutional folders
+        run: |
+          required=(docs foundation)
+          for path in "${required[@]}"; do
+            if [ ! -d "$path" ]; then
+              echo "Missing required directory: $path"
+              exit 1
+            fi
+          done
