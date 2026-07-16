@@ -1,0 +1,38 @@
+name: Feature request
+description: Propose an implementation improvement under the frozen constitutional architecture
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user, institutional, or engineering need.
+    validations:
+      required: true
+  - type: textarea
+    id: authority
+    attributes:
+      label: Governing authority
+      description: Reference the roadmap, issue, RP, ADR, trustee mandate, or implementation phase.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed implementation
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and provenance impact
+      description: List affected packages, documents, graph edges, or records.
+  - type: checkboxes
+    id: lock
+    attributes:
+      label: Research Lock
+      options:
+        - label: This proposal does not create or promote new canonical content.
+          required: true
