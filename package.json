@@ -1,0 +1,13 @@
+{
+  "name": "library-of-eternity",
+  "version": "0.5.0-alpha.1",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "npm --workspace @library-of-eternity/web run dev",
+    "build": "npm --workspace @library-of-eternity/web run build",
+    "typecheck": "npm --workspace @library-of-eternity/web run typecheck",
+    "validate": "npm --workspace @library-of-eternity/web run validate:library"
+  },
+  "engines": {"node": ">=20"}
+}

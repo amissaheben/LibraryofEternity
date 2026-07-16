@@ -1,0 +1,7 @@
+import { getHealth } from "@/lib/library";
+
+export default function HealthPage(){
+  const h=getHealth();
+  const issues = h.missingDependencies.length + h.duplicateIds.length + h.brokenEdges;
+  return <div className="page-wrap"><header className="page-header"><span className="eyebrow">Institutional integrity</span><h1>Library Health</h1><p>Live structural metrics calculated from the repository at build time.</p></header><section className="health-grid"><div className="health-score"><span>Integrity score</span><strong>{h.score}%</strong><small>{issues === 0 ? "No graph, dependency, or identifier defects detected." : `${issues} integrity issues require review.`}</small></div><div className="health-panel"><p><span>Research Lock</span><b>ACTIVE</b></p><p><span>Release</span><b>{h.release}</b></p><p><span>Documents</span><b>{h.documents}</b></p><p><span>Graph nodes</span><b>{h.graphNodes}</b></p><p><span>Graph edges</span><b>{h.graphEdges}</b></p><p><span>Broken edges</span><b>{h.brokenEdges}</b></p><p><span>Duplicate IDs</span><b>{h.duplicateIds.length}</b></p><p><span>Missing dependencies</span><b>{h.missingDependencies.length}</b></p></div></section><section className="class-grid">{Object.entries(h.classes).map(([key,value])=><div key={key}><span>{key}</span><strong>{value}</strong></div>)}</section>{issues > 0 && <section className="issue-panel"><h2>Integrity findings</h2>{h.missingDependencies.map((issue)=><p key={issue}>{issue}</p>)}{h.duplicateIds.map((issue)=><p key={issue}>Duplicate: {issue}</p>)}</section>}</div>;
+}

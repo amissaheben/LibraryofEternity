@@ -1,0 +1,434 @@
+[
+  {
+    "id": "AA-0000",
+    "title": "The First Record",
+    "excerpt": "AA 0000 — The First Record Constitutional Declaration Before there were stars, there were no names. Before there were names, there were no definitions. Before there were definitions, there was Identity. And Identity simply was. Reality is not created. Reality ",
+    "className": "AA",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/AA/AA-0000-The-First-Record.md"
+  },
+  {
+    "id": "AA-0001",
+    "title": "The Nature of Reality",
+    "excerpt": "AA 0001 — The Nature of Reality Purpose To define the minimum conditions under which anything may be recognized as real within the Infinite Weave. The Three Conditions of Existence Identity A reality must possess an intrinsic nature by which it is itself. Defi",
+    "className": "AA",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/AA/AA-0001-The-Nature-of-Reality.md"
+  },
+  {
+    "id": "AA-0002",
+    "title": "The Laws of Reality",
+    "excerpt": "AA 0002 — The Laws of Reality Purpose To codify the six irreducible constitutional Laws governing every scale of reality. The Six Pillars 1. Identity — Being: Every entity possesses an intrinsic nature. 2. Definition — Distinction: Every identity possesses con",
+    "className": "AA",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/AA/AA-0002-The-Laws-of-Reality.md"
+  },
+  {
+    "id": "AA-0003",
+    "title": "The Emergent Principles",
+    "excerpt": "AA 0003 — The Emergent Principles Prologue — The Nature of Measurement Measurement does not create reality. It reveals ordered aspects of reality that already exist. Foundational Theorems FT 0001: Fundamental Laws govern existence; Emergent Principles quantify",
+    "className": "AA",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/AA/AA-0003-The-Emergent-Principles.md"
+  },
+  {
+    "id": "AA-0004",
+    "title": "Emergent Structures",
+    "excerpt": "AA 0004 — Emergent Structures Prologue — The Nature of Organization Measurement records reality. Organization composes reality. Constitutional Definition An Emergent Structure is a persistent organization of participating realities whose coordinated behavior c",
+    "className": "AA",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/AA/AA-0004-Emergent-Structures.md"
+  },
+  {
+    "id": "AA-0005",
+    "title": "Life",
+    "excerpt": "AA 0005 — Life Prologue — The Living Question Life is not a substance added to matter. It is the constitutional capability of a self producing system to navigate its own persistence. The Vital Threshold Autopoiesis establishes an enduring individual. Life begi",
+    "className": "AA",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/AA/AA-0005-Life.md"
+  },
+  {
+    "id": "AA-XXXX",
+    "title": "TITLE",
+    "excerpt": "AA XXXX — TITLE Purpose Content Dependencies Provenance Status",
+    "className": "AA",
+    "status": "Draft",
+    "layer": "A-Universe",
+    "path": "06-TEMPLATES/AA-Template.md"
+  },
+  {
+    "id": "ADR-XXXX",
+    "title": "TITLE",
+    "excerpt": "ADR XXXX — TITLE Purpose Content Dependencies Provenance Status",
+    "className": "ADR",
+    "status": "Draft",
+    "layer": "B-Institution",
+    "path": "06-TEMPLATES/ADR-Template.md"
+  },
+  {
+    "id": "AR-0001",
+    "title": "The Perfect Constitutional Zombie",
+    "excerpt": "AR 0001 — The Perfect Constitutional Zombie Execution Log Pending terminal artifact. Structural Result Pending. Audit Assessment Unchanged.",
+    "className": "AR",
+    "status": "Active",
+    "layer": "B-Institution",
+    "path": "02-RESEARCH/AR/AR-0001.md"
+  },
+  {
+    "id": "AR-XXXX",
+    "title": "TITLE",
+    "excerpt": "AR XXXX — TITLE Purpose Content Dependencies Provenance Status",
+    "className": "AR",
+    "status": "Draft",
+    "layer": "B-Institution",
+    "path": "06-TEMPLATES/AR-Template.md"
+  },
+  {
+    "id": "CHANGELOG",
+    "title": "Changelog",
+    "excerpt": "Changelog v1.0.0 rc1 Initialized repository architecture. Added constitutional, research, institutional, graph, index, template and tooling domains. Added metadata schema and starter validator. 2026 07 15 — Foundation Population Milestone Added AA 0000 through",
+    "className": "CHANGELOG",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "CHANGELOG.md"
+  },
+  {
+    "id": "Concept-Index",
+    "title": "Concept Index",
+    "excerpt": "Concept Index Initial protected terms: Identity, Definition, Change, Connection, Selection, Resonance, Law, Principle, Structure, Threshold, Capability.",
+    "className": "Concept",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "04-INDEX/Concept-Index.md"
+  },
+  {
+    "id": "CONTRIBUTING",
+    "title": "Contribution Protocol",
+    "excerpt": "Contribution Protocol 1. Every artifact requires a unique ID and YAML front matter. 2. Every claim requires provenance. 3. Dependencies must reference registered IDs or protected terms. 4. Layer boundaries must not be violated. 5. Retired concepts are preserve",
+    "className": "CONTRIBUTING",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "CONTRIBUTING.md"
+  },
+  {
+    "id": "Dependency-Atlas",
+    "title": "Dependency Atlas",
+    "excerpt": "Dependency Atlas mermaid graph TD Identity Definition Identity Change Definition Connection Change Selection Selection Resonance Starter graph; audited population pending.",
+    "className": "Dependency",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "04-INDEX/Dependency-Atlas.md"
+  },
+  {
+    "id": "Document-Register",
+    "title": "Document Register",
+    "excerpt": "Document Register Generated from master registry.yaml .",
+    "className": "Document",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "04-INDEX/Document-Register.md"
+  },
+  {
+    "id": "FO-XXXX",
+    "title": "TITLE",
+    "excerpt": "FO XXXX — TITLE Purpose Content Dependencies Provenance Status",
+    "className": "FO",
+    "status": "Draft",
+    "layer": "A-Universe",
+    "path": "06-TEMPLATES/FO-Template.md"
+  },
+  {
+    "id": "IA-0001",
+    "title": "The Non-Duplication Audit",
+    "excerpt": "IA 0001 — The Non Duplication Audit Nine constraint audit framework.",
+    "className": "IA",
+    "status": "Active",
+    "layer": "B-Institution",
+    "path": "02-RESEARCH/IA/IA-0001.md"
+  },
+  {
+    "id": "IA-XXXX",
+    "title": "TITLE",
+    "excerpt": "IA XXXX — TITLE Purpose Content Dependencies Provenance Status",
+    "className": "IA",
+    "status": "Draft",
+    "layer": "B-Institution",
+    "path": "06-TEMPLATES/IA-Template.md"
+  },
+  {
+    "id": "IH-0001",
+    "title": "Institutional History Registry",
+    "excerpt": "Institutional History Registry IH 0001: The First Foundation IH 0002: The Structural Restoration IH 0003: The Research Lock IH 0004: The Institutional Transition IH 0005: The Provenance Reform",
+    "className": "IH",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "03-INSTITUTION/IH/IH-0001-to-IH-0005.md"
+  },
+  {
+    "id": "IH-XXXX",
+    "title": "TITLE",
+    "excerpt": "IH XXXX — TITLE Purpose Content Dependencies Provenance Status",
+    "className": "IH",
+    "status": "Draft",
+    "layer": "C-Meta-History",
+    "path": "06-TEMPLATES/IH-Template.md"
+  },
+  {
+    "id": "IP-0001",
+    "title": "Institutional Principles",
+    "excerpt": "Institutional Principles IP 0001: The Constitution governs its authors. IP 0002: Every conclusion is provisional until audited. IP 0003: Reduction has priority over expansion. IP 0004: Repository integrity exceeds publication speed. IP 0005: Every claim must p",
+    "className": "IP",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "03-INSTITUTION/IP/IP-0001-to-IP-0007.md"
+  },
+  {
+    "id": "IRN-0001",
+    "title": "Identity Parameter Anomaly",
+    "excerpt": "IRN 0001 — Identity Parameter Anomaly A modeled system may represent internal states while partitioning them from its constitutive identity.",
+    "className": "IRN",
+    "status": "Active",
+    "layer": "B-Institution",
+    "path": "02-RESEARCH/IRN/IRN-0001.md"
+  },
+  {
+    "id": "IRN-XXXX",
+    "title": "TITLE",
+    "excerpt": "IRN XXXX — TITLE Purpose Content Dependencies Provenance Status",
+    "className": "IRN",
+    "status": "Draft",
+    "layer": "B-Institution",
+    "path": "06-TEMPLATES/IRN-Template.md"
+  },
+  {
+    "id": "LAW-0001",
+    "title": "Law of Identity",
+    "excerpt": "LAW 0001 — The Law of Identity Constitutional Definition The invariant nature by which an entity is itself rather than another. Constitutional Maxim Nothing can become unless something first is. Ontological Function Provides the irreducible constitutional capa",
+    "className": "LAW",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/Laws/LAW-0001-Identity.md"
+  },
+  {
+    "id": "LAW-0002",
+    "title": "Law of Definition",
+    "excerpt": "LAW 0002 — The Law of Definition Constitutional Definition The constitutional determination of the limits within which an identity remains itself and beyond which it is another. Constitutional Maxim Nothing can be known unless something is bounded. Ontological",
+    "className": "LAW",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/Laws/LAW-0002-Definition.md"
+  },
+  {
+    "id": "LAW-0003",
+    "title": "Law of Change",
+    "excerpt": "LAW 0003 — The Law of Change Constitutional Definition The constitutional principle by which an identity may lawfully occupy different expressive states while preserving constitutional continuity. Constitutional Maxim Nothing can unfold unless something can di",
+    "className": "LAW",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/Laws/LAW-0003-Change.md"
+  },
+  {
+    "id": "LAW-0004",
+    "title": "Law of Connection",
+    "excerpt": "LAW 0004 — The Law of Connection Constitutional Definition The constitutional principle by which distinct identities become capable of lawful participation in one another without loss of constitutional individuality. Constitutional Maxim Nothing can participat",
+    "className": "LAW",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/Laws/LAW-0004-Connection.md"
+  },
+  {
+    "id": "LAW-0005",
+    "title": "Law of Selection",
+    "excerpt": "LAW 0005 — The Law of Selection Constitutional Definition The constitutional principle by which one lawful expressive possibility becomes constitutionally actual without altering the identity from which the possibilities arise. Constitutional Maxim Nothing bec",
+    "className": "LAW",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/Laws/LAW-0005-Selection.md"
+  },
+  {
+    "id": "LAW-0006",
+    "title": "Law of Resonance",
+    "excerpt": "LAW 0006 — The Law of Resonance Constitutional Definition The constitutional principle by which the consequences of actualized participation persist as enduring conditions within the constitutional history of reality. Constitutional Maxim Nothing endures unles",
+    "className": "LAW",
+    "status": "Locked",
+    "layer": "A-Universe",
+    "path": "01-FOUNDATION/Laws/LAW-0006-Resonance.md"
+  },
+  {
+    "id": "LC-0001",
+    "title": "The Library Constitution",
+    "excerpt": "LC 0001 — The Library Constitution Governs the Archive, its language, research, evidence, amendments, layers and institutional offices.",
+    "className": "LC",
+    "status": "Locked",
+    "layer": "B-Institution",
+    "path": "00-CONSTITUTION/LC-0001-Library-Constitution.md"
+  },
+  {
+    "id": "LC-0002",
+    "title": "Constitutional Atlas",
+    "excerpt": "LC 0002 — Constitutional Atlas Cross index of constitutional artifacts, concepts and dependencies. Population pending.",
+    "className": "LC",
+    "status": "Draft",
+    "layer": "B-Institution",
+    "path": "00-CONSTITUTION/LC-0002-Constitutional-Atlas.md"
+  },
+  {
+    "id": "LC-0003",
+    "title": "Dependency Graph",
+    "excerpt": "LC 0003 — Dependency Graph Human readable and machine readable genealogy. See 05 GRAPH/ .",
+    "className": "LC",
+    "status": "Draft",
+    "layer": "B-Institution",
+    "path": "00-CONSTITUTION/LC-0003-Dependency-Graph.md"
+  },
+  {
+    "id": "LC-0004",
+    "title": "Master Registry",
+    "excerpt": "LC 0004 — Master Registry Authoritative registry: 04 INDEX/master registry.yaml .",
+    "className": "LC",
+    "status": "Active",
+    "layer": "B-Institution",
+    "path": "00-CONSTITUTION/LC-0004-Master-Registry.md"
+  },
+  {
+    "id": "LC-0005",
+    "title": "Standards of Evidence",
+    "excerpt": "LC 0005 — Standards of Evidence Evidence: E0–E5. Necessity: N0–N5.",
+    "className": "LC",
+    "status": "Locked",
+    "layer": "B-Institution",
+    "path": "00-CONSTITUTION/LC-0005-Standards-of-Evidence.md"
+  },
+  {
+    "id": "LC-0006",
+    "title": "Constitutional Provenance Standard",
+    "excerpt": "LC 0006 — Constitutional Provenance Standard Every permanent artifact records origin, motivation, alternatives, dependencies, evidence, necessity, history and status.",
+    "className": "LC",
+    "status": "Locked",
+    "layer": "B-Institution",
+    "path": "00-CONSTITUTION/LC-0006-Provenance-Standard.md"
+  },
+  {
+    "id": "LHR-0001",
+    "title": "Library Health Report v1.0 RC1",
+    "excerpt": "Library Health Report v1.0 RC1 Repository Population AA volumes populated: 6 CSC 0 Laws populated: 6 New canonical core files: 12 Registry entries added: 12 Integrity Targets Metadata validation: pending execution Duplicate IDs: pending execution Broken depend",
+    "className": "LHR",
+    "status": "Active",
+    "layer": "B-Institution",
+    "path": "04-INDEX/Health-Reports/Library-Health-Report-v1.0-RC1.md"
+  },
+  {
+    "id": "Library-Health",
+    "title": "Library Health Report v1.0 — Draft",
+    "excerpt": "Library Health Report v1.0 — Draft Repository skeleton: PASS Metadata schema: PASS Initial validator: PASS Canon population: INCOMPLETE Provenance population: INCOMPLETE Dependency graph: PROVISIONAL Research Lock: ACTIVE",
+    "className": "Library",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "04-INDEX/Health-Reports/Library-Health-Report-v1.0-draft.md"
+  },
+  {
+    "id": "LICENSE",
+    "title": "License Status",
+    "excerpt": "License Status License selection is pending Trustee approval. Until then, all rights are reserved.",
+    "className": "LICENSE",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "LICENSE.md"
+  },
+  {
+    "id": "Master-Registry",
+    "title": "Master Registry",
+    "excerpt": "Master Registry Foundation Core | ID | Title | Class | Status | Path | | | | | | | | AA 0000 | The First Record | AA | Locked | 01 FOUNDATION/AA/AA 0000 The First Record.md | | AA 0001 | The Nature of Reality | AA | Locked | 01 FOUNDATION/AA/AA 0001 The Nature",
+    "className": "Master",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "04-INDEX/Master-Registry.md"
+  },
+  {
+    "id": "Protected-Terms",
+    "title": "Protected Terms",
+    "excerpt": "Protected Terms CSC 0 Identity; Definition; Change; Connection; Selection; Resonance. CSC 1 Law; Principle; Structure; Threshold; Capability.",
+    "className": "Protected",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "04-INDEX/Protected-Terms.md"
+  },
+  {
+    "id": "README",
+    "title": "Tools",
+    "excerpt": "Tools Initial metadata validator included. Other tool directories are scaffolded.",
+    "className": "README",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "07-TOOLS/README.md"
+  },
+  {
+    "id": "README",
+    "title": "The Library of Eternity",
+    "excerpt": "The Library of Eternity Foundation v1.0 — Release Candidate 1 The permanent repository for the Infinite Weave constitutional research institution. Current State Foundation: Locked Constitution: Locked Research Lock: Active AA 0006: Constitutionally Suspended A",
+    "className": "README",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "README.md"
+  },
+  {
+    "id": "RESEARCH-LOCK",
+    "title": "Research Lock",
+    "excerpt": "Research Lock AA Foundation locked; RP 0002 active; IA 0001 monitoring; AR 0001 executing; AA 0006 suspended.",
+    "className": "RESEARCH",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "03-INSTITUTION/Governance/RESEARCH-LOCK.md"
+  },
+  {
+    "id": "ROADMAP",
+    "title": "Institutional Roadmap",
+    "excerpt": "Institutional Roadmap [x] Repository skeleton [x] Metadata standard [x] Artifact templates [x] Initial registry [x] Initial validator [ ] Populate canonical artifacts [ ] Complete provenance [ ] Complete dependency graph [ ] Generate Health Report v1.0 [ ] Pub",
+    "className": "ROADMAP",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "ROADMAP.md"
+  },
+  {
+    "id": "RP-0002",
+    "title": "Adversarial Models of Subjectivity",
+    "excerpt": "RP 0002 — Adversarial Models of Subjectivity Research Lock active. Canonization prohibited pending AR 0001 through AR 0005 and IA 0001.",
+    "className": "RP",
+    "status": "Active",
+    "layer": "B-Institution",
+    "path": "02-RESEARCH/RP/RP-0002.md"
+  },
+  {
+    "id": "RP-XXXX",
+    "title": "TITLE",
+    "excerpt": "RP XXXX — TITLE Purpose Content Dependencies Provenance Status",
+    "className": "RP",
+    "status": "Draft",
+    "layer": "B-Institution",
+    "path": "06-TEMPLATES/RP-Template.md"
+  },
+  {
+    "id": "TC-0001",
+    "title": "TC-0001 — Foundation v1.0 Readiness Assessment",
+    "excerpt": "TC 0001 — Foundation v1.0 Readiness Assessment Architecturally complete. Repository implementation pending.",
+    "className": "TC",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "03-INSTITUTION/TC/TC-0001.md"
+  },
+  {
+    "id": "TM-0001",
+    "title": "TM-0001 — The Completion Doctrine",
+    "excerpt": "TM 0001 — The Completion Doctrine No further architecture before RC1 verification.",
+    "className": "TM",
+    "status": "Unspecified",
+    "layer": "Institution",
+    "path": "03-INSTITUTION/TM/TM-0001.md"
+  }
+]

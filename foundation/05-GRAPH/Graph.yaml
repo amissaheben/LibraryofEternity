@@ -1,0 +1,106 @@
+version: 1.0-RC1
+generated: '2026-07-15'
+nodes:
+- id: AA-0000
+  label: The First Record
+  class: AA
+- id: AA-0001
+  label: The Nature of Reality
+  class: AA
+- id: AA-0002
+  label: The Laws of Reality
+  class: AA
+- id: AA-0003
+  label: The Emergent Principles
+  class: AA
+- id: AA-0004
+  label: Emergent Structures
+  class: AA
+- id: AA-0005
+  label: Life
+  class: AA
+- id: LAW-0001
+  label: Law of Identity
+  class: LAW
+- id: LAW-0002
+  label: Law of Definition
+  class: LAW
+- id: LAW-0003
+  label: Law of Change
+  class: LAW
+- id: LAW-0004
+  label: Law of Connection
+  class: LAW
+- id: LAW-0005
+  label: Law of Selection
+  class: LAW
+- id: LAW-0006
+  label: Law of Resonance
+  class: LAW
+edges:
+- from: AA-0000
+  to: AA-0001
+  type: precedes
+- from: AA-0001
+  to: AA-0002
+  type: precedes
+- from: AA-0002
+  to: AA-0003
+  type: precedes
+- from: AA-0003
+  to: AA-0004
+  type: precedes
+- from: AA-0004
+  to: AA-0005
+  type: precedes
+- from: LAW-0001
+  to: EXISTENCE
+  type: contributes
+- from: LAW-0001
+  to: LAW-0002
+  type: depends_on
+- from: LAW-0002
+  to: BOUNDEDNESS
+  type: contributes
+- from: LAW-0001
+  to: LAW-0003
+  type: depends_on
+- from: LAW-0002
+  to: LAW-0003
+  type: depends_on
+- from: LAW-0003
+  to: EXPRESSION
+  type: contributes
+- from: LAW-0001
+  to: LAW-0004
+  type: depends_on
+- from: LAW-0002
+  to: LAW-0004
+  type: depends_on
+- from: LAW-0004
+  to: PARTICIPATION
+  type: contributes
+- from: LAW-0001
+  to: LAW-0005
+  type: depends_on
+- from: LAW-0002
+  to: LAW-0005
+  type: depends_on
+- from: LAW-0003
+  to: LAW-0005
+  type: depends_on
+- from: LAW-0005
+  to: ACTUALIZATION
+  type: contributes
+- from: LAW-0001
+  to: LAW-0006
+  type: depends_on
+- from: LAW-0003
+  to: LAW-0006
+  type: depends_on
+- from: LAW-0005
+  to: LAW-0006
+  type: depends_on
+- from: LAW-0006
+  to: PERSISTENCE
+  type: contributes

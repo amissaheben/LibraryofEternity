@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { getDocuments } from "@/lib/library";
+export default function RegistryPage() { const docs = getDocuments(); return <div className="page-wrap"><header className="page-header"><span className="eyebrow">Index</span><h1>Master Registry</h1><p>Machine-readable status and classification for every indexed artifact.</p></header><div className="table-wrap"><table><thead><tr><th>ID</th><th>Title</th><th>Class</th><th>Layer</th><th>Status</th></tr></thead><tbody>{docs.map((d) => <tr key={d.path}><td><Link href={`/documents/${d.id}`}>{d.id}</Link></td><td>{d.title}</td><td>{d.className}</td><td>{d.layer}</td><td>{d.status}</td></tr>)}</tbody></table></div></div>; }

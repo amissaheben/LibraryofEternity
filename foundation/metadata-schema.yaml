@@ -1,0 +1,16 @@
+required_fields:
+  - id
+  - title
+  - document_class
+  - layer
+  - status
+  - version
+  - stability
+  - provenance
+  - dependencies
+  - evidence_score
+  - necessity_score
+  - last_updated
+allowed_layers: [A-Universe, B-Institution, C-Meta-History]
+allowed_evidence_scores: [E0, E1, E2, E3, E4, E5, NA]
+allowed_necessity_scores: [N0, N1, N2, N3, N4, N5, NA]

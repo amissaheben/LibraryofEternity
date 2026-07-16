@@ -1,0 +1,3 @@
+"use client";
+import { useState } from "react";
+export default function ReleaseControls() { const [message, setMessage] = useState(""); const [busy, setBusy] = useState(false); async function generate() { setBusy(true); const response = await fetch("/api/release", { method: "POST" }); const data = await response.json(); setMessage(data.ok ? `Manifest generated: ${data.path}` : "Manifest generation failed."); setBusy(false); } return <div><button className="button primary" disabled={busy} onClick={() => void generate()}>{busy ? "Generating…" : "Generate release manifest"}</button>{message && <p className="success-message">{message}</p>}</div>; }
