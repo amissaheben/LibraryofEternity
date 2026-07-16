@@ -1,0 +1,59 @@
+name: Validate Repository
+
+on:
+  push:
+    branches: [main, development, research, release]
+  pull_request:
+    branches: [main, development]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Detect Node project
+        id: node_project
+        shell: bash
+        run: |
+          if [ -f package.json ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Node.js
+        if: steps.node_project.outputs.present == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        if: steps.node_project.outputs.present == 'true' && hashFiles('package-lock.json') != ''
+        run: npm ci
+
+      - name: Type check
+        if: steps.node_project.outputs.present == 'true'
+        run: npm run typecheck --if-present
+
+      - name: Validate repository
+        if: steps.node_project.outputs.present == 'true'
+        run: npm run validate --if-present
+
+      - name: Build platform
+        if: steps.node_project.outputs.present == 'true'
+        run: npm run build --if-present
+
+      - name: Verify constitutional folders
+        run: |
+          required=(docs foundation)
+          for path in "${required[@]}"; do
+            if [ ! -d "$path" ]; then
+              echo "Missing required directory: $path"
+              exit 1
+            fi
+          done
