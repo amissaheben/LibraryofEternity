@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a reproducible platform or validator defect
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What failed, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest reliable reproduction.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Constitutional or repository impact
+      description: Identify affected records, dependencies, provenance, or workflow states.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Node version, browser, branch, and commit.
